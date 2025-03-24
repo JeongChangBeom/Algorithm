@@ -1,10 +1,10 @@
 # [level 2] 기능개발 - 42586 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42586) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42586?language=csharp) 
 
 ### 성능 요약
 
-메모리: 3.74 MB, 시간: 0.02 ms
+메모리: 30.9 MB, 시간: 1.12 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 06일 15:43:57
+2025년 03월 24일 21:43:08
 
 ### 문제 설명
 
