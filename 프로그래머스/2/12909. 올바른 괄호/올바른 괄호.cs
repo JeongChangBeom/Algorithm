@@ -2,28 +2,27 @@ using System;
 using System.Collections.Generic;
 
 public class Solution {
-    public bool solution(string str) {
+    public bool solution(string s) {
         bool answer = true;
         
-        Stack<int> s = new Stack<int>();
+        Stack<char> stack = new Stack<char>();
         
-        for(int i=0;i<str.Length;i++){
-            if(s.Count == 0){
-                s.Push(str[i]);
+        for(int i=0;i<s.Length;i++){
+            if(s[i] == '('){
+                stack.Push(s[i]);
             }
             else{
-                if(str[i] == '('){
-                    s.Push(str[i]);
+                if(stack.Count == 0){
+                    return false;
                 }
-                else{
-                    if(s.Peek() == '('){
-                        s.Pop();
-                    }
-                }
+                stack.Pop();
             }
         }
         
-        if(s.Count != 0){
+        if(stack.Count == 0){
+            answer = true;
+        }
+        else{
             answer = false;
         }
         
