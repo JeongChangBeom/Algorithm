@@ -1,10 +1,10 @@
 # [level 2] H-Index - 42747 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42747) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42747?language=csharp) 
 
 ### 성능 요약
 
-메모리: 3.68 MB, 시간: 0.06 ms
+메모리: 31.5 MB, 시간: 2.98 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 18일 18:28:06
+2025년 11월 13일 18:06:59
 
 ### 문제 설명
 
