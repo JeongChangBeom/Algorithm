@@ -1,10 +1,10 @@
 # [level 2] 점프와 순간 이동 - 12980 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12980) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12980?language=csharp) 
 
 ### 성능 요약
 
-메모리: 3.87 MB, 시간: 0.01 ms
+메모리: 31.2 MB, 시간: 0.26 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 01월 07일 17:11:19
+2025년 11월 19일 15:12:30
 
 ### 문제 설명
 
