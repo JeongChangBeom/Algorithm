@@ -1,10 +1,10 @@
 # [level 2] 가장 큰 수 - 42746 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42746) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42746?language=csharp) 
 
 ### 성능 요약
 
-메모리: 10.5 MB, 시간: 74.50 ms
+메모리: 43.5 MB, 시간: 1298.69 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 11일 00:04:37
+2025년 11월 25일 18:10:34
 
 ### 문제 설명
 
