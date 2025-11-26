@@ -1,10 +1,10 @@
 # [level 3] 입국심사 - 43238 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/43238) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/43238?language=csharp) 
 
 ### 성능 요약
 
-메모리: 6.92 MB, 시간: 54.04 ms
+메모리: 32.9 MB, 시간: 72.44 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 15일 19:04:29
+2025년 11월 26일 16:50:04
 
 ### 문제 설명
 
