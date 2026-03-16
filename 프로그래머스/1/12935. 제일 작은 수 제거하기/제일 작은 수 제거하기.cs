@@ -1,29 +1,29 @@
 using System.Collections.Generic;
 
 public class Solution {
-    public List<int> solution(int[] arr) {
-        List<int> answer = new List<int>();
+    public int[] solution(int[] arr) {
+        int length = arr.Length;
         
-        int min = 2147483647;
+        if(length == 1){
+            return new int[] {-1};
+        }
         
-        for(int i=0;i<arr.Length;i++){
+        int min = arr[0];
+        
+        for(int i=1;i<length;i++){
             if(arr[i] < min){
                 min = arr[i];
             }
         }
         
-        for(int i=0;i<arr.Length;i++){
-            if(arr[i] == min){
-                continue;
+        List<int> list = new List<int>();
+        
+        for(int i=0;i<length;i++){
+            if(arr[i] != min){
+                list.Add(arr[i]);
             }
-            
-            answer.Add(arr[i]);
         }
         
-        if(answer.Count == 0){
-            answer.Add(-1);
-        }
-        
-        return answer;
+        return list.ToArray();
     }
 }
