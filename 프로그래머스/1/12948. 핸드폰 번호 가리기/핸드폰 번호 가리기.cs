@@ -1,15 +1,19 @@
+using System.Text;
+
 public class Solution {
     public string solution(string phone_number) {
-        string answer = "";
+        StringBuilder sb = new StringBuilder();
+        int length = phone_number.Length; 
         
-        for(int i=0;i<phone_number.Length-4;i++){
-            answer += "*";
+        for(int i=0;i<length;i++){
+            if(i < length-4){
+                sb.Append('*');
+            }
+            else{
+                sb.Append(phone_number[i]);
+            }
         }
         
-        for(int i=phone_number.Length-4;i<phone_number.Length;i++){
-            answer += phone_number[i];
-        }
-        
-        return answer;
+        return sb.ToString();
     }
 }
