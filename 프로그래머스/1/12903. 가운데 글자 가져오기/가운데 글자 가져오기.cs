@@ -1,10 +1,12 @@
+using System.Text;
+
 public class Solution {
     public string solution(string s) {
-        string answer = "";
-        
+        StringBuilder sb = new StringBuilder();
         bool isOdd = false;
+        int length = s.Length;
         
-        if(s.Length % 2 == 0){
+        if(length % 2 == 0){
             isOdd = false;
         }
         else{
@@ -12,13 +14,13 @@ public class Solution {
         }
         
         if(isOdd){
-            answer += s[s.Length/2];
+            sb.Append(s[length/2]);
         }
         else{
-            answer += s[s.Length/2-1];
-            answer += s[s.Length/2];
+            sb.Append(s[length/2-1]);
+            sb.Append(s[length/2]);
         }
         
-        return answer;
+        return sb.ToString();
     }
 }
